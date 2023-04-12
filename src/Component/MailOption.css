@@ -1,0 +1,19 @@
+.mail-margin {
+    margin-right: 20px;
+}
+
+.MailIcon {
+    cursor: pointer;
+    color: rgb(109, 109, 109);
+    padding: 5px;
+}
+
+.mail-small {
+    font-size: 15px !important;
+}
+
+.MailIcon:hover {
+    transition: 500ms;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+}

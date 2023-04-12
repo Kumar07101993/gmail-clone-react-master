@@ -1,0 +1,59 @@
+.mails {
+    flex: 70%;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.mails::-webkit-scrollbar {
+    display: none;
+}
+
+.mails_icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.mail-left {
+    display: flex;
+    align-items: center;
+}
+
+.mail-right {
+    display: flex;
+    align-items: center;
+}
+
+.tabs {
+    display: flex;
+    align-items: center;
+}
+
+.tab {
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(109, 109, 109);
+    width: 200px;
+}
+
+.tab h5 {
+    padding-left: 20px;
+}
+
+.tab:hover {
+    background-color: #e0e0e0;
+}
+
+.active {
+    border-bottom: 2px solid red;
+}
+
+.seprater {
+    border-bottom: 1px solid #e0e0e0;
+}
